@@ -1,0 +1,247 @@
+@font-face {
+    font-family: Light;
+    src: url(media/MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(media/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url(media/MYRIADPRO-SEMIBOLDIT.OTF);
+}
+
+body{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.General{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90e0ef;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.Left{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background: #90e0ef;
+    width: 20%;
+    height: 100%;
+}
+
+#Titulo{
+    font-family: SemiBold;
+    font-size: 2vw;
+    margin-top: 3vw;
+    color: #03045e;
+}
+
+.Elementos{
+    margin-top: 3vw;
+    font-family: Regular;
+    font-size: 1.3vw;
+}
+
+.Elementos a:hover{
+    transition: 0.3s;
+    font-size: 1.5vw;
+}
+
+#Enlace{
+    text-decoration: none;
+    color: white;
+    color: #03045e;
+}
+
+#Icono{
+    width: 1vw;
+}
+
+#Carrito{
+    margin-top: 8vw;
+    font-family: Regular;
+    font-size: 1.3vw;
+    color: white;
+    cursor: pointer;
+    color: #03045e;
+}
+
+#Carrito:hover{
+    font-size: 1.5vw;
+    transition: 0.3s;
+}
+
+#CopyRight{
+    margin-top: 5vw;
+    font-family: Regular;
+    font-size: 1.3vw;
+    color: white;
+    color: #03045e;
+}
+
+.Right{
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 90%;
+    border-radius: 2vw;
+}
+
+#Titulo1{
+    font-family: SemiBold;
+    font-size: 2vw;
+    margin-left: 2vw;
+}
+
+.Productos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+}
+
+.Producto1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(187, 187, 187);
+    width: 95%;
+    height: 8vw;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+    align-items: center;
+}
+
+.Producto2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(187, 187, 187);
+    width: 95%;
+    height: 8vw;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+    align-items: center;
+}
+
+.Producto3{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(187, 187, 187);
+    width: 95%;
+    height: 8vw;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+    align-items: center;
+}
+
+#FotoProd{
+    width: 7vw;
+    height: 100%;
+    margin-left: 2vw;
+}
+
+#NombreProd{
+    position: absolute;
+    font-family: light;
+    font-size: 1.4vw;
+    margin-left: 10vw;
+}
+
+#Cantidad{
+    position: absolute;
+    font-family: light;
+    font-size: 1.4vw;
+    margin-left: 33vw;
+}
+
+#PrecioProd{
+    position: absolute;
+    font-family: light;
+    font-size: 1.4vw;
+    margin-left: 42vw;
+}
+
+#SubTotal{
+    position: absolute;
+    font-family: light;
+    font-size: 1.3vw;
+    margin-left: 55vw;
+}
+
+#Cancel{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 58vw;
+    margin-top: -2vw;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+#Check1:checked~.Producto1{
+    display: none;
+}
+
+#Check2:checked~.Producto2{
+    display: none;
+}
+
+#Check3:checked~.Producto3{
+    display: none;
+}
+
+#Vaciar{
+    position: relative;
+    font-family: SemiBold;
+    font-size: 1.3vw;
+    width: 10vw;
+    height: 2vw;
+    top: -7vw;
+    margin-left: 3vw;
+    cursor: pointer;
+    background-color: #90e0ef;
+    border: none;
+    border-radius: 1vw;
+    color: #03045e;
+}
+
+.Total{
+    font-size: 1vw;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 5vw;
+    font-family: Regular;
+    position: absolute;
+    margin-top: 33vw;
+    margin-left: 58.5vw;
+    border-radius: 1vw;
+    color: #03045e;
+}
+
+#ComprarAhora{
+    font-family: SemiBold;
+    font-size: 1.1vw;
+    margin-left: 2vw;
+    cursor: pointer;
+    background-color: #90e0ef;
+    border: none;
+    border-radius: 1vw;
+    color: #03045e;
+}

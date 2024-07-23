@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Light;
+    src: url(media/MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(media/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url(media/MYRIADPRO-SEMIBOLDIT.OTF);
+}
+
+body{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.General{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90e0ef;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.Left{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background: #90e0ef;
+    width: 20%;
+    height: 100%;
+}
+
+#Titulo{
+    font-family: SemiBold;
+    font-size: 2vw;
+    margin-top: 3vw;
+}
+
+.Elementos{
+    margin-top: 3vw;
+    font-family: Regular;
+    font-size: 1.3vw;
+}
+
+.Elementos a:hover{
+    transition: 0.3s;
+    font-size: 1.5vw;
+}
+
+#Enlace{
+    text-decoration: none;
+    color: #03045e;
+}
+
+#Icono{
+    width: 1vw;
+}
+
+#Carrito{
+    margin-top: 8vw;
+    font-family: Regular;
+    font-size: 1.3vw;
+    color: #03045e;
+}
+
+#Carrito:hover{
+    font-size: 1.5vw;
+    transition: 0.3s;
+}
+
+#CopyRight{
+    margin-top: 5vw;
+    font-family: Regular;
+    font-size: 1.3vw;
+    color:     #03045e;
+
+}
+
+.Right{
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 90%;
+    border-radius: 2vw;
+}
+
+#Titulo1{
+    font-family: SemiBold;
+    font-size: 2vw;
+    margin-left: 2vw;
+}
+
+.Productos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 80%;
+}
+
+.Producto{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2vw;
+    width: 14vw;
+    height: 16vw;
+    margin-left: 2vw;
+}
+
+#FotoProd{
+    width: 100%;
+    height: 80%;
+}
+
+.Inferior{
+    display: flex;
+    flex-direction: column;
+    font-family: Light;
+    width: 100%;
+    height: 20%;
+    background-color: skyblue;
+}
+
+#NombreProd{
+    margin-left: 1vw;
+    margin-top: 0vw;
+}
+
+#PrecioProd{
+    font-family: SemiBold;
+    margin-top: -0.7vw;
+    margin-left: 1.5vw;
+}
+
+#Agregar{
+    font-family: SemiBold;
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 1.5vw;
+    width: 5vw;
+    height: 1.4vw;
+    background-color: blue;
+    border: none;
+    border-radius: 0.4vw;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
