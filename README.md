@@ -33,7 +33,7 @@ print("Hello world")
 
 Entra aqui para ver una [imagen de gatito](https://i.pinimg.com/736x/09/04/91/090491a3b8106ba0cccf357cb203c570.jpg)
 
-![Melo caramelo](/Filtro_HTML_MaldonadoBrayan/media/WhatsApp%20Image%202024-08-01%20at%2010.57.27%20PM.jpeg)
+![Melo caramelo](/media/WhatsApp%20Image%202024-08-01%20at%2010.57.27%20PM.jpeg)
 
 >Este texto será una cita 
 
